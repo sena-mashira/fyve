@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="media/logo.svg" type="image/x-icon">
+    <script src="index.js"></script>
+    <title>FYVE SERVICE</title>
+</head>
+<body class="bodyservice">
+    <div class="grid-container">
+        <nav class="drop">
+            <a href="" id="none"><img src="media/logo.svg" alt="" class="logo"></a>
+            <form action="product.html" class="search-container">
+                <input type="text" id="search">
+                <label for="search"><img src="media/seach icon.svg" alt="" class="iconsearch"></label>
+            </form>
+            <div class="navmenu" id="hamburger">
+                <a href="index.html">home</a>
+                <a href="product.html">product</a>
+                <a href="service.html" class="active">service</a>
+                <a href="store.html">store</a>
+                <a href="login.html">login</a>
+            </div>
+            <div class="hamburger" onclick="hamburger()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+        <main>
+            <div class="help">
+                <div class="container">
+                    <h1 class="headerhelp">How Can I Help You ?</h1>
+                    <form action="" class="search-container-help">
+                        <input type="text" id="searchhelp" placeholder="Cari Bantuan">
+                        <label for="searchhelp"><img src="media/seach icon.svg" alt="" class="iconsearchhelp"></label>
+                    </form>
+                </div>
+            </div>
+            <div class="faq">
+                <p>frequently asked questions</p>
+                <div class="container">
+                    <div class="question">
+                        <p id="q">q : Lorem ipsum dolor sit amet ?</p>
+                        <p id="a">a : consectetur adipisicing elit.</p>
+                        <p id="q">q : Expedita ipsum quis exercitationem ?</p>
+                        <p id="a">a : cum error iure veniam nisi. </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+           <p class="footername">fyve indonesia</p>
+        </footer>
+    </div>
+</body>
+</html>
